@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipz - The Creator's Growth Engine</title>
+    <!-- Menambahkan Content Security Policy (CSP) untuk mengizinkan script dan style eksternal -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
     <!-- Memuat Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Memuat Font Inter -->
@@ -386,5 +388,6 @@
 
 </body>
 </html>
+
 
 
